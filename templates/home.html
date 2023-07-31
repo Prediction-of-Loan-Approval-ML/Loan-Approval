@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Prediction</title>
+    <!-- Add the link to the CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
 
+</head>
+<body>
+    <div class="card-container">
+        <h1>Loan Prediction Form</h1>
+        <form action="/predict" method="post">
+            <table class="form-table">
+                <tr>
+                    <td>
+                        <label for="Gender">Gender:</label>
+                    </td>
+                    <td>
+                        <select id="Gender" name="Gender">
+                            <option value="1">Male</option>
+                            <option value="0">Female</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="       Married">Married:</label>
+                    </td>
+                    <td>
+                        <select id="Married" name="Married">
+                            <option value="1">Yes</option>
+                            <option value="0">No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Dependents">Dependents:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="Dependents" name="Dependents">
+                    </td>
+                    <td>
+                        <label for="Education">Education:</label>
+                    </td>
+                    <td>
+                        <select id="Education" name="Education">
+                            <option value="1">Graduate</option>
+                            <option value="0">Not Graduate</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Self_Employed">Self Employed:</label>
+                    </td>
+                    <td>
+                        <select id="Self_Employed" name="Self_Employed">
+                            <option value="1">Yes</option>
+                            <option value="0">No</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="ApplicantIncome">Applicant Income:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="ApplicantIncome" name="ApplicantIncome">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="CoapplicantIncome">Coapplicant Income:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="CoapplicantIncome" name="CoapplicantIncome">
+                    </td>
+                    <td>
+                        <label for="LoanAmount">Loan Amount:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="LoanAmount" name="LoanAmount">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Loan_Amount_Term">Loan Amount Term:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="Loan_Amount_Term" name="Loan_Amount_Term">
+                    </td>
+                    <td>
+                        <label for="Credit_History">Credit History:</label>
+                    </td>
+                    <td>
+                        <select id="Credit_History" name="Credit_History">
+                            <option value="1">Good</option>
+                            <option value="0">Not Good</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Property_Area">Property Area:</label>
+                    </td>
+                    <td colspan="3">
+                        <select id="Property_Area" name="Property_Area">
+                            <option value="2">Urban</option>
+                            <option value="1">Semiurban</option>
+                            <option value="0">Rural</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
