@@ -1,6 +1,6 @@
 # Predicting Personal Loan Approval Using Machine Learning
 
-Overview:
+**Overview**:
 
 The lending industry plays a crucial role in supporting individuals and businesses by providing access to financial resources through various types of loans. One of the most common types is a personal loan, which offers individuals the flexibility to use the funds for various purposes, such as home repairs, medical expenses, debt consolidation, and more. However, the loan approval process involves risk assessment, and financial institutions need to ensure that borrowers are creditworthy and capable of repaying the loan.
 
