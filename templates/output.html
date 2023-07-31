@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/output_style.css') }}">
+</head>
+<body>
+    <div class="card-container">
+        <div class="header">Loan Prediction Result</div>
+        <div class="result">
+            {% if result %}
+                {{ result }}
+            {% endif %}
+        </div>
+        <div class="button-container">
+            <button class="button" onclick="window.location.href='/'">Back to Home</button>
+        </div>
+    </div>
+</body>
+</html>
