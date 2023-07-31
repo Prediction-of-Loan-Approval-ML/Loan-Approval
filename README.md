@@ -46,6 +46,7 @@ In this project, we engineer features such as:
 
 **4. Exploratory Data Analysis:**
 During EDA, various statistical measures and visualizations are used to gain insights into the data distribution, relationships between features, and potential correlations between features and loan approval status.
+
 **5. Model Building**
 three popular machine learning algorithms are selected for training:
 1.	Logistic Regression
