@@ -104,9 +104,9 @@ After applying hyperparameter tuning, the model accuracies improve as follows:
 
  Model                                        Accuracy After Hyperparameter Tuning 
 
- Logistic Regression                   87%                                
- Decision Trees                           89%                                
- Random Forests                         91.5%                              
+ Logistic Regression                                 87%                                
+ Decision Trees                                      89%                                
+ Random Forests                                      91.5%                              
 
 7. Model Deployment
 
