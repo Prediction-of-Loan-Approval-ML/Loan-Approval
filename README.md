@@ -2,7 +2,7 @@
 
 **INTRODUCTION:**
 
-**1.1 Overview**:
+**Overview**:
 
 The lending industry plays a crucial role in supporting individuals and businesses by providing access to financial resources through various types of loans. One of the most common types is a personal loan, which offers individuals the flexibility to use the funds for various purposes, such as home repairs, medical expenses, debt consolidation, and more.
 
@@ -12,7 +12,7 @@ The objective of this project is to develop an intelligent and automated loan ap
 
 **THEOREOTICAL ANALYSIS**
 
-**3.1 Project flow Diagram:**
+**Project flow Diagram:**
 The project's flow diagram depicts the high-level flow of data and operations within the system:
 
 ![img2](https://github.com/Prediction-of-Loan-Approval-ML/Loan-Approval/assets/80556383/fbe75b44-ea0b-4db8-85f1-affbfd77df26)
