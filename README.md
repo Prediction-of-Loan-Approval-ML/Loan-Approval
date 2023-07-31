@@ -10,26 +10,53 @@ The objective of this project is to develop an intelligent and automated loan ap
 
 ![4684138](https://github.com/Prediction-of-Loan-Approval-ML/Loan-Approval/assets/80556383/25cd75b2-bd60-46de-891d-ac1dd71029c1)
 
-**1.2 Purpose:**
+**THEOREOTICAL ANALYSIS**
 
-The primary purpose of this project is to streamline the loan approval process and provide a seamless experience to both borrowers and financial institutions. By employing machine learning algorithms, we aim to achieve the following:
+**3.1 Project flow Diagram:**
+The project's flow diagram depicts the high-level flow of data and operations within the system:
 
-1.	**Improve Efficiency:** Automation reduces the time and effort required for manual loan evaluation, enabling faster responses to loan applicants and improves the overall customer experience by reducing waiting times for loan approvals.
+![img2](https://github.com/Prediction-of-Loan-Approval-ML/Loan-Approval/assets/80556383/fbe75b44-ea0b-4db8-85f1-affbfd77df26)
 
-2.	**Enhance Accuracy:** Machine learning models leverage historical data to identify patterns and trends, leading to more accurate loan approval predictions. By considering multiple features and past loan data, the model can make better-informed decisions.
+**Software Requirements:**
 
-3.	**Improve Customer Experience:** Borrowers can check their loan eligibility in real-time through a user-friendly web application, offering transparency and convenience. This empowerment allows borrowers to understand their loan eligibility and take necessary actions to improve their chances of approval.
+1. Python
+2. IBM Machine Learning
+3. Flask
+4. HTML, CSS.
 
-**LITERATURE SURVEY:**
+![imge2 JPG](https://github.com/Prediction-of-Loan-Approval-ML/Loan-Approval/assets/80556383/9b9af16b-dfef-4439-89b0-e62f5f88781e)
 
-**2.1 Existing Problem:**
-Traditional loan approval processes typically involve manual evaluation of applicant documents, credit history, and subjective decision-making by loan officers. These manual approaches are time-consuming, prone to human errors, and may lead to inconsistent outcomes.loan officers may unknowingly favor applicants from certain demographics, leading to discrimination and unfair treatment.
+**Building a model**
 
-**2.2 Proposed Solution:**
+![im3 JPG](https://github.com/Prediction-of-Loan-Approval-ML/Loan-Approval/assets/80556383/14c0366a-65cf-435f-b75a-e60a154eb5ab)
 
-In this project, we propose using various machine learning algorithms to build a predictive model for loan approval. By training the model on historical loan data with corresponding approval outcomes, the system can learn patterns and make data-driven decisions. 
+**1. Collecting the Dataset:**
+The dataset used in this project was obtained from Kaggle. 
 
-The proposed solution aims to address the shortcomings of traditional methods by providing a more efficient, accurate, and objective approach to loan approval. By automating the process, the project strives to ensure fairness, transparency, and consistency in loan approvals, regardless of loan officer’s individual judgments
+**2. Data Preparation:**
 
+The data preparation phase involves several key steps:
+**Data Cleaning:**
+The first step is to clean the dataset, which includes the following processes:
+1.	Handling Missing Values 
+2.	Dealing with Duplicate Records
 
+**Feature Engineering:**
+In this project, we engineer features such as:
+1.	Debt-to-Income Ratio
+2.	Loan-to-Income Ratio
+
+**3. Exploratory Data Analysis:**
+During EDA, various statistical measures and visualizations are used to gain insights into the data distribution, relationships between features, and potential correlations between features and loan approval status.
+**4. Model Building**
+three popular machine learning algorithms are selected for training:
+1.	Logistic Regression
+2.	Decision Trees
+3.	Random Forests
+
+![RAND JPG](https://github.com/Prediction-of-Loan-Approval-ML/Loan-Approval/assets/80556383/8f592a19-90dc-48c6-836a-4d46e9914c99)
+
+**5. Testing the Model:**
+
+![TEST JPG](https://github.com/Prediction-of-Loan-Approval-ML/Loan-Approval/assets/80556383/9ffdc14e-285a-41d5-89df-a48d578dce58)
 
