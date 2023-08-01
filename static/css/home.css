@@ -1,0 +1,86 @@
+/* static/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images2.alphacoders.com/243/24300.jpg"); /* Add the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    max-width: 800px; /* Increase the max-width as desired */
+    padding: 30px; /* Add padding to the card container */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background color */
+    backdrop-filter: blur(10px); /* Blur effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table td {
+    padding: 15px 10px; /* Add padding to the form table cells */
+    border-bottom: 1px solid #ccc;
+}
+
+.form-table td:first-child {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 10px; /* Add right padding to the first column of the form table */
+}
+
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px; /* Add margin at the bottom of the form inputs */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add custom styles for spacing between form elements */
+.form-table td:nth-child(odd) {
+    padding-right: 15px; /* Add right padding to the odd-numbered columns (labels) */
+}
+
+/* Add custom styles for spacing between form elements in the right column */
+.form-table td:nth-child(even) {
+    padding-left: 5px; /* Reduce the left padding to decrease the gap in the right column */
+    margin-bottom: 10px; /* Add margin at the bottom of the form elements in the right column */
+}
