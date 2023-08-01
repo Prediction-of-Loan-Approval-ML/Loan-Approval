@@ -1,0 +1,58 @@
+/* output_style.css */
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Card container styling */
+.card-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Result text styling */
+.result {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #007bff; /* Add your desired color here */
+}
+
+/* Button styling */
+.button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #f583f5;
+}
+
+
+/* Center-align the button */
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
